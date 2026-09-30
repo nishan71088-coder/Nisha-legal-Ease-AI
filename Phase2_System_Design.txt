@@ -1,0 +1,8 @@
+Architecture:
+User (Browser) -> Streamlit Frontend (app.py) -> PyPDF2 (Text Extractor) -> Gemini API (AI Brain) -> Tamil Output
+
+Data Flow Diagram (DFD):
+Level 0: User -> LegalEaseAI System -> Tamil Explanation
+Level 1: 1. Upload PDF -> 2. Extract Text -> 3. Add User Question -> 4. Call Gemini -> 5. Display Result
+
+Use Case: Actor = Student / Public. Actions = Upload PDF, Ask Doubt, Get Tamil Explanation.
