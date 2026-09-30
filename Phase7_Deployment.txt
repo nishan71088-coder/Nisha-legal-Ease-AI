@@ -1,0 +1,8 @@
+Local Deployment Command:
+streamlit run frontend/app.py --server.port 8506
+
+Cloud Deployment (Future):
+Platform: Streamlit Cloud
+Steps: Push code to GitHub -> Connect to Streamlit Cloud -> Add GEMINI_API_KEY in Secrets -> Deploy.
+
+Final Output: User can access legal help in browser
