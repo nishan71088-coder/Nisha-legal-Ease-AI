@@ -1,0 +1,2 @@
+Conclusion:
+LegalEaseAI project successfully converts complex English legal documents into simple Tamil. It helps common people understand law easily.
