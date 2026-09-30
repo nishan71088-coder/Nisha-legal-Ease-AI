@@ -1,0 +1,17 @@
+Test Case 1:
+Input: No PDF upload
+Expected Output: st.warning("PDF upload pannunga")
+Status: PASS
+
+Test Case 2:
+Input: Upload Rental Agreement PDF + Question "main point enna?"
+Expected Output: Simple Tamil explanation
+Status: PASS
+
+Test Case 3:
+Input: Invalid API Key
+Expected Output: Error handling
+Status: To be fixed with try-except
+
+Warning in your terminal: Direct use of AFC in Models.generate_content is not recommended. 
+Fix: Use try-except block.
