@@ -1,0 +1,19 @@
+File Name: frontend/app.py
+
+Key Code Snippet:
+import streamlit as st
+import PyPDF2
+from google import genai
+
+pdf = PyPDF2.PdfReader(uploaded)
+text = ""
+for page in pdf.pages:
+    text += page.extract_text()
+
+prompt = f"Explain this legal document in simple Tamil: {text} Question: {question}"
+
+response = client.models.generate_content(
+    model="gemini-3.5-flash-lite",
+    contents=prompt
+)
+st.markdown(response.text)
