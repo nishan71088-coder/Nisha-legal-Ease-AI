@@ -1,0 +1,13 @@
+Technology: Streamlit
+
+UI Components Used:
+1. st.title("LegalEaseAI - Sattathai Elidhaa Purinjiko")
+2. st.file_uploader("PDF upload pannunga", type=["pdf"])
+3. st.text_input("Enna doubt?")
+4. st.spinner("AI yosikuthu...")
+5. st.success("Done!")
+6. st.markdown(response.text)
+
+Running URLs from your terminal:
+Local URL: http://localhost:8506
+Network URL: http://192.168.1.11:8506
