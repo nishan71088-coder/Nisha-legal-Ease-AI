@@ -1,0 +1,14 @@
+Project Title: LegalEaseAI - Sattathai Elidhaa Purinjiko
+Objective: Sattathai satharana makkalukku simple Tamil la puriya vaika.
+
+Functional Requirements:
+1. User PDF upload pannanum
+2. PDF la irukkara text-a extract pannanum
+3. AI moolama simple Tamil la explain pannanum
+4. User doubt ketta answer pannanum
+
+Non-Functional Requirements:
+1. System easy ah use panna mudiyanum
+2. Response time 10 sec kulla varanum
+
+Software Required: Python 3.13, Streamlit, PyPDF2, google-genai, python-dotenv, VS Code
