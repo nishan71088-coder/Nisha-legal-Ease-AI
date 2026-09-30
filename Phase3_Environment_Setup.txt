@@ -1,0 +1,12 @@
+Step 1: Installation
+pip install streamlit PyPDF2 google-genai python-dotenv
+
+Step 2: Folder Structure
+LegalEaseAI/
+  frontend/
+    app.py
+  .env
+  requirements.txt
+
+Step 3: .env File Content
+GEMINI_API_KEY="AIza...unga key"
